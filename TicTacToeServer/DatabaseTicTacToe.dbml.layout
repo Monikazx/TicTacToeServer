@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="DatabaseTicTacToe">
+  <DataContextMoniker Name="/DatabaseTicTacToeDataContext" />
+  <nestedChildShapes>
+    <classShape Id="0266c23e-8787-4496-81f7-ed514e0d6353" absoluteBounds="1.375, 1.5, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/DatabaseTicTacToeDataContext/Game" />
+      <nestedChildShapes>
+        <elementListCompartment Id="02935f9e-5d9f-4355-8aa6-00261e920951" absoluteBounds="1.3900000000000001, 1.96, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="527bd8ba-1dd7-41c8-b8c9-6a949d9e9e9c" absoluteBounds="4.75, 1.625, 2, 1.3862939453125">
+      <DataClassMoniker Name="/DatabaseTicTacToeDataContext/User" />
+      <nestedChildShapes>
+        <elementListCompartment Id="df67d2df-ff10-4ced-97e2-a75ab5cc95b7" absoluteBounds="4.765, 2.085, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(4.75 : 2.85654606705729); (3.375 : 2.85654606705729)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DatabaseTicTacToeDataContext/User/User_Game" />
+      <nodes>
+        <classShapeMoniker Id="527bd8ba-1dd7-41c8-b8c9-6a949d9e9e9c" />
+        <classShapeMoniker Id="0266c23e-8787-4496-81f7-ed514e0d6353" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4.75 : 2.03839909440104); (3.375 : 2.03839909440104)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DatabaseTicTacToeDataContext/User/User_Game1" />
+      <nodes>
+        <classShapeMoniker Id="527bd8ba-1dd7-41c8-b8c9-6a949d9e9e9c" />
+        <classShapeMoniker Id="0266c23e-8787-4496-81f7-ed514e0d6353" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4.75 : 2.44747258072917); (3.375 : 2.44747258072917)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DatabaseTicTacToeDataContext/User/User_Game2" />
+      <nodes>
+        <classShapeMoniker Id="527bd8ba-1dd7-41c8-b8c9-6a949d9e9e9c" />
+        <classShapeMoniker Id="0266c23e-8787-4496-81f7-ed514e0d6353" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
